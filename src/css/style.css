@@ -1,0 +1,100 @@
+/* Geral */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 0.2em 0.4em;
+    padding: 5px;
+    color: #fff;
+    background-color: #294c71;
+    font-weight: bold;
+}
+
+/* cabeçalho */
+#header {
+    background: #294c71 url(../img/fundo.png) repeat-x;
+    height: 230px;
+}
+
+.header-content {
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+
+}
+
+.header-content img {
+    padding: 20px 0px 10px 0px;
+
+}
+
+
+#navbar ul,
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    background: url(../img/divisor.png) no-repeat left;
+    color: #fff;
+    background-color: #ae0031;
+    line-height: 3em;
+    padding: 0 2em;
+    display: block;
+
+}
+
+#navbar ul a:hover {
+    color: #8e042a;
+}
+
+#navbar .first-item a {
+    background-image: none;
+}
+
+#navbar .current-page a {
+    background-color: #de003e;
+}
+
+/* conteudo */
+#content {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#left-content {
+    border: solid red 2px;
+    float: left;
+    width: 20%;
+}
+
+#right-content {
+    border: solid red 2px;
+    width: 78%;
+    float: right;
+}
+
+#interviews, #news, #last-interview, #highlight, #world, #recent-news{
+    background: url(../img/fundo-caixa.png);
+}
