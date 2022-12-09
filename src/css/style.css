@@ -20,12 +20,28 @@ li {
 }
 
 h2 {
-    font-size: 1.2em;
-    margin: 0.2em 0.4em;
+    font-size: 1.3em;
+    margin: 0;
     padding: 5px;
     color: #fff;
     background-color: #294c71;
     font-weight: bold;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    padding: 5px;
+    display: inline-block;
+    background-color: #ae0031;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #294c71;
+    font-size: 0.9em;
+    margin: 0;
 }
 
 /* cabeçalho */
@@ -66,7 +82,7 @@ h2 {
 }
 
 #navbar ul a:hover {
-    color: #8e042a;
+    background-color: #de003e;
 }
 
 #navbar .first-item a {
@@ -84,17 +100,127 @@ h2 {
 }
 
 #left-content {
-    border: solid red 2px;
     float: left;
     width: 20%;
 }
 
 #right-content {
-    border: solid red 2px;
     width: 78%;
     float: right;
 }
 
-#interviews, #news, #last-interview, #highlight, #world, #recent-news{
+#right-content2 {
+    width: 78%;
+    float: right;
+}
+
+
+
+
+#interviews,
+#news,
+#last-interview,
+#highlight,
+#world,
+#recent-news {
+    margin: 0.5em;
+    padding: 0.6em;
     background: url(../img/fundo-caixa.png);
+}
+
+.bg-white {
+    background-color: #fff;
+    margin-top: 0.4em;
+    padding: 0.7em;
+}
+
+#interviews ul li {
+    padding: 4px 0;
+}
+
+#interviews ul a {
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+}
+
+
+#interviews ul a:active,
+#interviews ul a:visited {
+    color: inherit;
+}
+
+#interviews ul a:hover {
+    color: #fff;
+    background-color: #294c71;
+}
+
+#news input {
+    margin: 5px 0;
+}
+
+.button {
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    background-color: #ae0031;
+}
+
+.button:hover {
+    background-color: #de003e;
+}
+
+#highlight h3 {
+    color: #fff;
+
+}
+
+img.img-notice {
+    padding: 1%;
+    width: 97%;
+
+}
+
+#last-interview,
+#highlight,
+#world,
+#recent-news {
+    float: left;
+    width: 45%;
+}
+
+.small-box {
+    padding: 5px 0;
+    background-color: #fff;
+    border-bottom: solid 1px;
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.small-img {
+    float: left;
+    width: 25%;
+}
+
+.right-text {
+    float: right;
+    width: 72%;
+}
+
+#world h2,
+#recent-news h2 {
+    margin-bottom: 0.4em;
+}
+
+#world a,
+#recent-news a {
+    text-decoration: none;
+    color: black;
+}
+
+#world p,
+#recent-news p {
+    margin: 0;
 }
